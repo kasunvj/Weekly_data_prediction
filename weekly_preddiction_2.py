@@ -76,7 +76,7 @@ model.add(Dense(6,use_bias= True))
 model.add(Dense(6,use_bias= True))
 model.add(Dense(1,use_bias= True))
 model.compile(loss='mean_squared_error',optimizer='adam')
-model.fit(trainX,trainY,epochs=300,batch_size=1,verbose=2)
+model.fit(trainX,trainY,epochs=100,batch_size=1,verbose=2)
 
 
 
